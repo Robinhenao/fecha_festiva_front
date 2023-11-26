@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { FestivoDto } from './entidades/festivo-dto';
+import { FestivoDto } from './entities/festivo-dto';
 import { ColumnMode, SelectionType } from '@swimlane/ngx-datatable';
-import { FestivosService } from './servicios/festivos.service';
+import { FestivosService } from './services/festivos.service';
 
 @Component({
   selector: 'app-root',

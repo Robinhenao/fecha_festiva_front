@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { FestivoDto } from '../entidades/festivo-dto';
+import { FestivoDto } from '../entities/festivo-dto';
 
 @Injectable({
   providedIn: 'root'
